@@ -1,0 +1,35 @@
+﻿@model Hospital
+@{
+    ViewData["Title"] = "Create";
+}
+<a asp-action="Index">View All Hospitals</a>
+<h2>Create</h2>
+<form method="post">
+    <p>
+        <label asp-for="Name">Hospital Name:</label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </p>
+
+    <p>
+        <label asp-for="Speciality">Hospital Speciality:</label>
+        <select asp-for="Speciality">
+            <option value="Anesthesiology">Anesthesiology</option>
+            <option value="Dermatology">Dermatology</option>
+            <option value="Neurology">Neurology</option>
+            <option value="Pathology">Pathology</option>
+            <option value="Pediatrics">Pediatrics</option>
+            <option value="Psychiatry">Psychiatry</option>
+            <option value="Surgery">Surgery</option>
+        </select>
+        <span asp-validation-for="Speciality"></span>
+    </p>
+
+    <p>
+        <label asp-for="Address">Hospital Address:</label>
+        <input asp-for="Address" />
+          <span asp-validation-for="Address"></span>
+    </p>
+
+    <p><button type="submit">Submit</button></p>
+</form>
