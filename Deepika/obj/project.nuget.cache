@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6TlJPy2FHBzFSTizGvitYUC0DMGnKTg6ovyRHti2D0Smkcp+5j5HwCxVTyYNX83h0G1SyPX+3hVUouI7IoJTZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Deepika\\source\\repos\\Deepika\\Deepika\\Deepika.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Deepika\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
